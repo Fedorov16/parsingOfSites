@@ -1,10 +1,17 @@
 <?php
 
-include './simplehtmldom/simple_html_dom.php';
+include_once ('Content.php');
+//
+//$url = 'https://www.paradrive.ru/catalog/paraplany/';
+//$url = 'https://yandex.ru/images/';
+//$url = 'https://google.com';
 
-$html = file_get_html('http://google.com');
+//$new = new Content($url);
+////$new ->getImg();
+//
+//echo $new->getContent();
 
-// Find all links
-foreach($html->find('a') as $element)
-    echo $element->href . '<br>';
+
+
+
 
