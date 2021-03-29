@@ -4,7 +4,7 @@ down: _down
 in: _in
 yarn: _yarn
 watch: _watch
-prod: _prod
+#prod: _prod
 
 _build:
 	docker-compose build && docker-compose up -d
